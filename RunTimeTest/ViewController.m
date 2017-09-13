@@ -19,11 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    objc_msgSend(self, @selector(viewDidLoad));
+    
+    //测试上传代码
+//    objc_msgSend(self, @selector(viewDidLoad));
     
 //    [ViewController load];
     
-    [ViewController xz_imageName:@"123"];
+//    [ViewController xz_imageName:@"123"];
 }
 
 + (UIImage *)xz_imageName:(NSString *)imageName
